@@ -12,3 +12,18 @@ thisDict = {
 print(thisDict)
 print(thisDict["brand"])
 print(len(thisDict))
+print(type(thisDict))
+
+anotherDict = dict(name = "Dictionary", type="Dict")
+print(anotherDict)
+
+x = thisDict.get("model")
+print(x)
+
+kees = thisDict.keys()
+print(kees)
+
+thisDict["new"] = "new"
+
+print(thisDict.values())
+print(thisDict.items())
