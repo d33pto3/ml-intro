@@ -1,0 +1,45 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+.env/
+.venv/
+
+# IDEs/editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Test and coverage
+.coverage
+.tox/
+.nox/
+.coverage.*
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Distribution files
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Sensitive data
+.env
+secret_config.py
