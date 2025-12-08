@@ -32,8 +32,12 @@ arr = np.array([1, 2, 3, 4, 5])
 # print(arr2)
 
 # -- 3-D Arrays
-arr3 = np.array([[[1,2,3], [4,5,6]], [[1,2,3], [4,5,6]]])
-print(arr3)
+# arr3 = np.array([[[1,2,3], [4,5,6]], [[1,2,3], [4,5,6]]])
+# print(arr3)
 
 # -- Check Number of Dimensions
-print('number of dimensions: ',arr3.ndim)
+# print('number of dimensions: ',arr3.ndim)
+
+# -- Array indexing
+arr3 = np.array([[[1,2,3], [4,5,6]], [[7,8,9], [10,11, 12]]])
+print(arr3[0, 1, 2])
